@@ -94,5 +94,5 @@ message.reply(`Good** **Night ${message.author}`)
 
 
 
-
-client.login(process.env.token)
+const {token} = require(`./config.json`)
+client.login(token)
