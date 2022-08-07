@@ -28,8 +28,9 @@ for(file of commands) {
 client.on("ready", () => {
   console.log("Bot ready")
   console.log(`Logged in as ${client.user.tag}`)
+  setInterval((message) => {
   client.user.setActivity("Alive and Chloe | =help",{type: "WATCHING"})
-  
+  }, 1000);
 })
 
 
