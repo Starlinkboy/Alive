@@ -7,7 +7,7 @@ exports.run = async (client, message, args) => {
     else {
         const say = message.content.split(" ")
      const content = say.slice(1).join(" ")
-     if (!content) return message.channel.send("Enter a Type!\nTypes: ass, boob, pussy, gif")
+     if (!content) return message.channel.send("Enter a Type!\nTypes: ass, boobs, pussy, gif")
      if(content === "ass")
      {
       const axios = require("axios")
