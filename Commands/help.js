@@ -3,7 +3,7 @@ exports.run = (client, message, args) => {
  const embed = new Discord.MessageEmbed()
  .setTitle("Help:")
  .setDescription("\n=ping : Bot Ping\n=ban : ban member(Usage : =ban @member reason)\n=kick : kicks member\n=avatar : gets user avatar\n=status : gives the bot's status\n=cal question : Calculation command. only supports +, -,*,/\n=meme : sends random meme\n",)
-  .addField("NSFW", "=por type : Porn of type\n Types are: hass, hmidriff, pgif, 4k, hentai, holo, hneko, neko, hkitsune, kemonomimi, anal, hanal, gonewild, kanna, ass, pussy, thigh, hthigh, gah, coffee, food, paizuri, tentacle, boobs, hboobs, yaoi")
+ .addField("NSFW", "=por type = porn in types.\n Types: ass, boobs, pussy, gif \n=hentai: anime porn")
  .setColor("RANDOM")
 
   const embed1 = new Discord.MessageEmbed()
